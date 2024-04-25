@@ -1,0 +1,218 @@
+body{
+    background-image: url(dropdown.jpg);
+}
+
+.first{
+    background-color:navy;
+    /* margin: 10px; */
+    /* margin-top: 0.5px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+.first img{
+    border-radius:40px;
+}
+
+.first ul{
+    display:inline-flex;
+    list-style: none;
+    float: inline-end;
+    color:white;
+    font-size: large;
+}
+
+.second li a:hover{
+    background-color: bisque;
+    color: lightblue;
+}
+
+.second li{
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.first p{
+    color: whitesmoke;
+}
+
+.before{
+    list-style: none;
+    font-size: x-large;
+    /* background-image: url(pat.jpg); */
+}
+
+.group1{
+    justify-content:center;
+    display: flex;
+
+}
+
+.second{
+    /* background-color: blueviolet; */
+    color: aqua;
+}
+
+.first1{
+    font-size:larger;
+    color:whitesmoke;
+    margin: 20px;
+    padding-top: 70px;
+}
+
+.group1 img{
+    border-radius: 80px;
+}
+
+
+.first img{
+    /* float: left; */
+}
+.image img{
+    display:flexbox;
+    background-color: brown;
+    padding: 0.3px;
+    margin: 0.2px;
+}
+.services {
+    /* display: grid; */
+    color: white;
+    grid-template-columns: 200px 200px 200px;
+    gap: 5px;
+    /* background-color: lightseagreen; */
+}
+
+.services .serviceCard9{
+    background-color: navy;
+    padding: 10px;
+    border-radius: 40px;
+    margin-right: 500px;
+
+}
+
+.services .serviceCard8{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 40px;
+    margin-right: 500px;
+
+}
+.services .serviceCard7{
+    background-color: navy;
+    padding: 10px;
+    border-radius: 40px;
+    
+}
+
+.services .serviceCard6{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 40px;
+    margin-right: 500px;
+}
+
+.services .serviceCard5{
+    background-color: navy;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 500px;
+}
+
+.services .serviceCard4{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 40px;
+    margin-right: 500px;
+}
+
+.serviceCard {
+    /* background-color:slateblue; */
+    padding: 10px;
+}
+
+.footer{
+    margin-top: 5%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.first li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+.search{
+    float:inline-end;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    
+}
+
+.services p{
+    color: whitesmoke;
+    font-size: larger;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+
+.About{
+    background-color: whitesmoke;
+    /* padding: 30px; */
+}
+
+.About p{
+    text-align: center;
+    font-size: small;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    /* background-color: silver; */
+    
+}
+
+.About .contact{
+    font-size: small;
+    font-family: geaorgia;
+
+}
+
+/* .sub-menu{
+    display: none;
+} */
+
+
+/* .first ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: navy;
+    margin-top: 15px;
+    margin-left: -15px;
+
+} */
+
+/* .first ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} */
+
+.sub-menu1{
+    display: none;
+
+}
+
+.menu.second.sub-menu1 ul li:hover .{
+    display: block;
+    position: absolute;
+    background-color: skyblue;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}

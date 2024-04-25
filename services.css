@@ -1,0 +1,55 @@
+body{
+    background-color: navy;
+    
+}
+li:before{
+    content: "\1F495";
+    list-style:inside;
+    
+}
+
+.King{
+    background-color:navy;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.before li{
+    /* color: aquamarine; */
+    list-style: none;
+    font-size: x-large;
+    font-family: georgia;
+}
+
+.icon img{
+    margin-bottom: 30px;
+    padding: 10px;
+    /* float: unset; */
+}
+
+.icon{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.before{
+    text-align: center;
+}
+
+li:hover{
+    /* background-color:white; */
+    /* color: white; */
+}
+
+.Hero{
+    /* color:brown; */
+    font-size: larger;
+}
+
+.before a{
+    color: aquamarine;
+}
+
+
